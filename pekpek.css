@@ -1,0 +1,57 @@
+    button {
+  padding: 10px 16px 10px 16px;
+    }
+        
+    .yt{
+      border-radius: 3px;
+      
+        background-color: rgb(200,0,0);
+        color: white;
+        border: none;
+        margin-right: 8px;
+        cursor: pointer;
+        vertical-align: top;
+        
+        transition: opacity 1s;
+    }
+    .yt:hover{
+      opacity: 0.8;
+    }
+    .yt:active{
+      opacity: 0.4;
+    }
+  .dc{
+    border-radius: 8px;
+    background-color: #7289da;
+    border-width: 1px;
+    color: white;
+    border: none;
+    border-style: solid;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: top;
+    
+    transition: background-color 1s,
+    color 1s;
+  }
+  .dc:hover{
+    color: #7289da;
+    background-color: white;
+  }
+  .fb{
+    border-radius: 16px;
+    background-color: #1877F2;
+    color: white;
+    border: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: top;
+    
+    transition: box-shadow 0.7s;
+  }
+  .fb:hover{
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.4);
+  }
